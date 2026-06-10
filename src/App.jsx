@@ -10,6 +10,9 @@ import TasksMenu from "./pages/TasksMenu";
 import TaskDetails from "./pages/TaskDetails";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Profile from "./pages/Profile";
+import Settings from "./pages/Settings";
+import Reports from "./pages/Reports";
 
 export default function App() {
   return (
@@ -46,6 +49,21 @@ export default function App() {
           <Route 
             path="/about"
             element={<About />}
+          />
+
+          <Route 
+            path="/profile"
+            element={<Profile />}
+          />
+
+          <Route 
+            path="/settings"
+            element={<Settings />}
+          />
+
+          <Route 
+            path="/reports"
+            element={<Reports />}
           />
 
           <Route 
