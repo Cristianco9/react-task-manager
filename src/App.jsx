@@ -11,6 +11,7 @@ import CreateTask from "./pages/CreateTask";
 import TaskDetails from "./pages/TaskDetails";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Notifications from "./pages/Notifications";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
 import Reports from "./pages/Reports";
@@ -50,6 +51,11 @@ export default function App() {
           <Route 
             path="/tasks/new" 
             element={<CreateTask />}
+          />
+
+          <Route 
+            path="/notifications"
+            element={<Notifications />}
           />
 
           <Route 
