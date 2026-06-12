@@ -17,6 +17,7 @@ import Team from "./pages/Team";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
 import Reports from "./pages/Reports";
+import Help from "./pages/Help";
 
 export default function App() {
   return (
@@ -88,6 +89,11 @@ export default function App() {
           <Route 
             path="/reports"
             element={<Reports />}
+          />
+
+          <Route 
+            path="/help"
+            element={<Help />}
           />
 
           <Route 
