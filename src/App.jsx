@@ -12,6 +12,7 @@ import TaskDetails from "./pages/TaskDetails";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import Notifications from "./pages/Notifications";
+import Team from "./pages/Team";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
 import Reports from "./pages/Reports";
@@ -61,6 +62,11 @@ export default function App() {
           <Route 
             path="/about"
             element={<About />}
+          />
+
+          <Route 
+            path="/team"
+            element={<Team />}
           />
 
           <Route 
